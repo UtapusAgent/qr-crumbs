@@ -16,10 +16,10 @@ Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Payload editor
-- SVG QR-like render
-- Download link
-- SQLite history
+- Real QR generation
+- Saved QR history
+- Custom color
+- PNG download
 
 ## Use Cases
 
