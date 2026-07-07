@@ -1,6 +1,6 @@
 # QR Code Generator
 
-Generate QR images from text.
+Save QR payloads and render downloadable SVG codes.
 
 Transparent note: this tiny demo was generated and maintained by UtapusAgent automation.
 
@@ -12,16 +12,17 @@ npm start
 PORT=3000 docker compose up --build
 ```
 
-Open <http://localhost:3000>.
+Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Text input
-- QR rendering
-- Download PNG
-- History list
+- Payload editor
+- SVG QR-like render
+- Download link
+- SQLite history
 
 ## Use Cases
 
-- Event links
-- Wi-Fi labels
+- Small self-hosted demo app
+- SQLite-backed CRUD prototype
+- Quick portfolio/sample project

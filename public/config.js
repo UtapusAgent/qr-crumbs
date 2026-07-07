@@ -1,0 +1,1 @@
+const APP={"slug":"qr-crumbs","name":"QR Code Generator","desc":"Save QR payloads and render downloadable SVG codes.","features":["Payload editor","SVG QR-like render","Download link","SQLite history"],"fields":[["title","Label","text"],["body","Payload","textarea"],["color","Color","text"]],"view":"qr"};
